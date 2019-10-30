@@ -3,7 +3,6 @@ package Entites;
 //src: https://stackoverflow.com/questions/17401852/open-video-file-with-opencv-java
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -19,7 +18,7 @@ public class CVideo {
 
     private String url;
     private String titre;
-    private List<int[]> tabRGB = new ArrayList<int[]>();
+    private List<int[]> tabRGB = new ArrayList<>();
 
     public CVideo(String url, List<int[]> tabRGB) {
         this.setUrl(url);
