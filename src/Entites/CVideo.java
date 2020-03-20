@@ -156,6 +156,4 @@ public class CVideo {
             go = video.getCommonColourFrame(frame, videoData, video);
         }
     }
-
-    //Les couleurs principales sont maintenant affichées !!!!!!!!!
 }
